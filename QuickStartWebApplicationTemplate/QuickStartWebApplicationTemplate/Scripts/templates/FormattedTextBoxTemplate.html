@@ -1,0 +1,7 @@
+﻿<!-- possible error colors: indianred, salmon: http://www.colors.commutercreative.com/grid/ -->
+<input type="text" data-bind="value: BlurText, visible: !HasFocus(), click: SetHasFocus, style: {backgroundColor: Errors().length > 0 ? 'salmon': 'white'}" />
+<input type="text" data-bind="value: FocusText, visible: HasFocus, hasfocus: HasFocus" style="display: none;"/>
+<span data-bind="visible: HasFocus" style="display: none;">The textbox has focus</span>
+<!--<ul data-bind="visible: Errors().length > 0, foreach:Errors">
+    <li data-bind="text: $data"></li>
+</ul>-->
