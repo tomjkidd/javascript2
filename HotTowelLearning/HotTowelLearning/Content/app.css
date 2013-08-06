@@ -212,3 +212,7 @@ footer span {
 		font-size: 14px;
 	}
 }
+
+.selected {
+    background-color: lightblue;
+}

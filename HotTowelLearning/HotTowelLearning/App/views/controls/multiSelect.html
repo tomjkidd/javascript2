@@ -1,0 +1,9 @@
+﻿<div>
+    <div class="multi-select-dropdown" data-bind="text: $data.TextBoxValue()"></div>
+    <!-- ko if: $data.enableSelectAll -->
+        <div><input type="checkbox" data-bind="checked: $data.SelectAll" /><span>Select All</span></div>
+    <!-- /ko -->
+    <!-- ko foreach: $data.displayedOptions -->
+        <div class="mutil-select-option" data-bind="text: $data.Name, click: $parent.ClickHandler, css: {'selected': $data.IsSelected() }"></div>
+    <!-- /ko -->
+</div>

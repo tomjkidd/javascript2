@@ -182,13 +182,17 @@
     <Content Include="App\durandal\widget.js" />
     <Content Include="App\main.js" />
     <Content Include="App\services\logger.js" />
+    <Content Include="App\viewmodels\controls\multiSelect.js" />
     <Content Include="App\viewmodels\details.js" />
     <Content Include="App\viewmodels\home.js" />
+    <Content Include="App\viewmodels\sandbox.js" />
     <Content Include="App\viewmodels\shell.js" />
+    <Content Include="App\views\controls\multiSelect.html" />
     <Content Include="App\views\details.html" />
     <Content Include="App\views\footer.html" />
     <Content Include="App\views\home.html" />
     <Content Include="App\views\nav.html" />
+    <Content Include="App\views\sandbox.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-responsive.css" />
