@@ -216,3 +216,9 @@ footer span {
 .selected {
     background-color: lightblue;
 }
+
+.small-label {
+    /*width: 100px !important;*/
+    white-space: nowrap;
+    letter-spacing: -0.05em;
+}
