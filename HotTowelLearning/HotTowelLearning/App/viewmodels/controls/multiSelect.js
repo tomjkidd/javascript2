@@ -1,5 +1,5 @@
 ﻿'use strict'
-define(['dependencies'], function () {
+define([], function () {
     var vm = function (element, settings) {
         function determineName(obj) {
             if (typeof obj === 'string' || typeof obj === 'number') {

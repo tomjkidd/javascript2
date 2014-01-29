@@ -13,6 +13,9 @@ namespace HotTowelLearning
             bundles.Add(
               new ScriptBundle("~/scripts/vendor")
                 .Include("~/scripts/jquery-{version}.js")
+                //.Include("http://code.jquery.com/ui/1.10.3/jquery-ui.js")
+                .Include("~/scripts/jquery-ui-{version}.js")
+                //.Include("http://code.jquery.com/jquery-1.9.1.js")
                 .Include("~/scripts/knockout-{version}.debug.js")
                 .Include("~/scripts/sammy-{version}.js")
                 .Include("~/scripts/toastr.js")
@@ -30,6 +33,8 @@ namespace HotTowelLearning
                 .Include("~/Content/durandal.css")
                 .Include("~/Content/toastr.css")
                 .Include("~/Content/app.css")
+                .Include("~/Content/jquery-ui-1.10.3.custom.css")
+                //.Include("http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css")
               );
         }
 

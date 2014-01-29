@@ -218,7 +218,10 @@ footer span {
 }
 
 .small-label {
-    /*width: 100px !important;*/
+    font-weight: 500;
     white-space: nowrap;
     letter-spacing: -0.05em;
+}
+.readonly-label {
+    font-weight: lighter;
 }
