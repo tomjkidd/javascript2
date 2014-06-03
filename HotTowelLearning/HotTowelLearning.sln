@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelLearning", "HotTowe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelLearning.Tests", "HotTowelLearning.Tests\HotTowelLearning.Tests.csproj", "{D7EC626F-9107-4A07-AA89-3AA4A3FCF5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSGenerator", "CSSGenerator\CSSGenerator.csproj", "{B9FA4199-37C8-426C-A97C-D1C7C35365D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{D7EC626F-9107-4A07-AA89-3AA4A3FCF5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EC626F-9107-4A07-AA89-3AA4A3FCF5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EC626F-9107-4A07-AA89-3AA4A3FCF5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FA4199-37C8-426C-A97C-D1C7C35365D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA4199-37C8-426C-A97C-D1C7C35365D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA4199-37C8-426C-A97C-D1C7C35365D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA4199-37C8-426C-A97C-D1C7C35365D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -225,3 +225,43 @@ footer span {
 .readonly-label {
     font-weight: lighter;
 }
+input[readonly] {
+    cursor: default !important;
+}
+
+fixed-span1 {
+    width: 60px;
+}
+fixed-span2 {
+    width: 120px;
+}
+fixed-span3 {
+    width: 180px;
+}
+fixed-span4 {
+    width: 240px;
+}
+fixed-span5 {
+    width: 300px;
+}
+fixed-span6 {
+    width: 360px;
+}
+fixed-span7 {
+    width: 60px;
+}
+fixed-span8 {
+    width: 60px;
+}
+fixed-span9 {
+    width: 60px;
+}
+fixed-span10 {
+    width: 60px;
+}
+fixed-span11 {
+    width: 60px;
+}
+fixed-span12 {
+    width: 60px;
+}
